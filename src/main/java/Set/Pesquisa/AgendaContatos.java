@@ -1,9 +1,7 @@
-package main.java.List.Set.Pesquisa;
+package main.java.Set.Pesquisa;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class AgendaContatos {
 
