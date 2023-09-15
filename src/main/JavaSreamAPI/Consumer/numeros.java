@@ -30,7 +30,7 @@ public class numeros {
         //Usando Lambada
         n.numero.forEach( num -> {
                 if(num % 2 == 0){
-                    System.out.println("Usando Lambda: "+num);
+                    System.out.println("Usando Cosumer: "+num);
                 }
             }
         );
