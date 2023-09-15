@@ -1,4 +1,4 @@
-package main.java.Map.List;
+package main.java.Map.Pesquisa;
 
 import java.util.HashMap;
 import java.util.Map;

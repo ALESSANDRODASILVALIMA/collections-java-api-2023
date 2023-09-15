@@ -1,4 +1,4 @@
-package main.java.Map.List;
+package main.java.Map.Pesquisa;
 
 public class Produto {
     private int cod;
