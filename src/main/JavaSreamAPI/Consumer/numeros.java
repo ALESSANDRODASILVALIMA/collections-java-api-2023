@@ -16,14 +16,24 @@ public class numeros {
     public static void main(String[] args) {
         numeros n = new numeros();
         //n.numero.stream().forEach(n.numeropar);
+
+        //Usando Cosumer
         n.numero.forEach(new Consumer<Integer>() {
             @Override
             public void accept(Integer num) {
                 if(num % 2 == 0){
-                    System.out.println(num);
+                    System.out.println("Usando Cosumer: "+ num);
                 }
             }
         });
+
+        //Usando Lambada
+        n.numero.forEach( num -> {
+                if(num % 2 == 0){
+                    System.out.println("Usando Lambda: "+num);
+                }
+            }
+        );
     }
 
 
